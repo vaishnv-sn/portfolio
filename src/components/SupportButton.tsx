@@ -1,5 +1,5 @@
-import React from 'react';
-import { Coffee } from 'lucide-react';
+import React from "react";
+import { Coffee } from "lucide-react";
 
 const SupportButton = () => {
   return (

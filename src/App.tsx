@@ -5,7 +5,6 @@ import ProjectCard from "./components/ProjectCard";
 import ContactForm from "./components/ContactForm";
 import SkillCard from "./components/SkillCard";
 import StarField from "./components/StarField";
-import { XIcon } from "./components/XIcon";
 import MeteorShower from "./components/MeteorShower";
 
 function App() {
@@ -78,28 +77,21 @@ function App() {
             </p>
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
-                href="https://github.com/kanish-v15"
+                href="https://github.com/vaishnv-sn"
                 className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
               >
                 <Github className="w-6 h-6 group-hover:text-nebulaPink transition-colors" />
                 <div className="absolute inset-0 rounded-full bg-nebulaPink/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
               </a>
               <a
-                href="https://www.linkedin.com/in/kanishv/"
+                href="https://www.linkedin.com/in/vaishnav-sn/"
                 className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
               >
                 <Linkedin className="w-6 h-6 group-hover:text-cosmicBlue transition-colors" />
                 <div className="absolute inset-0 rounded-full bg-cosmicBlue/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
               </a>
               <a
-                href="https://x.com/kanish2233"
-                className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
-              >
-                <XIcon className="w-6 h-6 group-hover:text-violet-500 transition-colors" />
-                <div className="absolute inset-0 rounded-full bg-violet-500/20 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-              </a>
-              <a
-                href="mailto:kanish2233@gmail.com"
+                href="mailto:vaishnav.sn4@gmail.com"
                 className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
               >
                 <Mail className="w-6 h-6 group-hover:text-emerald-500 transition-colors" />
@@ -229,33 +221,28 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-2xl font-bold bg-gradient-to-r from-nebulaPink to-cosmicBlue text-transparent bg-clip-text mb-4">
-                Kanish V
+                Vaishnav S N
               </h3>
               <p className="text-starWhite/70 mb-4">
-                Backend Developer specializing in Python, Django, and database
-                optimization
+                Full Stack Developer with experience in React, Node.js, and
+                MongoDB — specializing in backend development and building
+                scalable, business-centric applications.
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/kanish-v15"
+                  href="https://github.com/vaishnv-sn"
                   className="text-starWhite/70 hover:text-nebulaPink transition-colors"
                 >
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/kanishv/"
+                  href="https://www.linkedin.com/in/vaishnav-sn/"
                   className="text-starWhite/70 hover:text-cosmicBlue transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://x.com/kanish2233"
-                  className="text-starWhite/70 hover:text-violet-500 transition-colors"
-                >
-                  <XIcon className="w-5 h-5" />
-                </a>
-                <a
-                  href="mailto:kanish2233@gmail.com"
+                  href="mailto:vaishnav.sn4@gmail.com"
                   className="text-starWhite/70 hover:text-emerald-500 transition-colors"
                 >
                   <Mail className="w-5 h-5" />
@@ -302,13 +289,14 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
               <p className="text-starWhite/70 mb-2">
-                Email: kanish2233@gmail.com
+                Email: vaishnav.sn4@gmail.com
               </p>
             </div>
           </div>
           <div className="border-t border-starWhite/10 pt-8 text-center">
             <p className="text-starWhite/50">
-              &copy; {new Date().getFullYear()} Kanish V. All rights reserved.
+              &copy; {new Date().getFullYear()} Vaishnav S N . All rights
+              reserved.
             </p>
           </div>
         </div>
