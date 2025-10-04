@@ -1,4 +1,3 @@
-import React from "react";
 import { Github, Linkedin, Mail, User, Briefcase, Rocket } from "lucide-react";
 import NavBar from "./components/NavBar";
 import ProjectCard from "./components/ProjectCard";
@@ -10,45 +9,45 @@ import MeteorShower from "./components/MeteorShower";
 function App() {
   const skills = [
     {
-      name: "Python",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      color: "text-[#3776AB]"
+      name: "Node.js",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      color: "text-[#3776AB]",
     },
     {
-      name: "Django",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
-      color: "text-[#092E20]"
+      name: "Express.js",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      color: "text-[#092E20]",
     },
     {
-      name: "PostgreSQL",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-      color: "text-[#336791]"
+      name: "mongodb",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      color: "text-[#336791]",
     },
     {
       name: "MySQL",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-      color: "text-[#4479A1]"
+      color: "text-[#4479A1]",
     },
     {
       name: "HTML",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      color: "text-[#E34F26]"
+      color: "text-[#E34F26]",
     },
     {
       name: "CSS",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      color: "text-[#1572B6]"
+      color: "text-[#1572B6]",
     },
     {
       name: "JavaScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      color: "text-[#F7DF1E]"
+      color: "text-[#F7DF1E]",
     },
     {
-      name: "Docker",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-      color: "text-[#2496ED]"
-    }
+      name: "React",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      color: "text-[#2496ED]",
+    },
   ];
 
   return (
@@ -124,10 +123,17 @@ function App() {
                 About Me
               </h2>
               <p className="text-starWhite/80 leading-relaxed">
-                I'm a dedicated backend developer with expertise in building
-                robust and scalable server-side applications. I specialize in
-                Python, Django, and database optimization, with a strong
-                foundation in web technologies.
+                Full-Stack Developer deeply passionate about MERN stack
+                development — building applications that are scalable,
+                maintainable, and elegant. I thrive on solving complex problems,
+                improving workflows, and turning challenging ideas into
+                practical, high-quality solutions. I enjoy learning
+                continuously, experimenting with new approaches, and
+                collaborating across teams to deliver software that works
+                reliably and efficiently. I’m fascinated by the intersection of
+                technology and real-world impact, and I aim to grow as a
+                developer who doesn’t just write code, but shapes systems that
+                matter.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="group bg-deepSpace/50 border border-nebulaPink/20 p-6 rounded-lg backdrop-blur-sm transform hover:scale-105 transition-all duration-300">
@@ -135,14 +141,14 @@ function App() {
                   <h3 className="font-semibold mb-1 text-starWhite group-hover:text-nebulaPink transition-colors">
                     Experience
                   </h3>
-                  <p className="text-starWhite/70">1+ Years</p>
+                  <p className="text-starWhite/70">2+ Years</p>
                 </div>
                 <div className="group bg-deepSpace/50 border border-cosmicBlue/20 p-6 rounded-lg backdrop-blur-sm transform hover:scale-105 transition-all duration-300">
                   <Briefcase className="w-6 h-6 mb-2 text-cosmicBlue group-hover:animate-pulse" />
                   <h3 className="font-semibold mb-1 text-starWhite group-hover:text-cosmicBlue transition-colors">
                     Projects
                   </h3>
-                  <p className="text-starWhite/70">5+ Completed</p>
+                  <p className="text-starWhite/70">3+ Completed</p>
                 </div>
               </div>
             </div>
