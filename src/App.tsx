@@ -295,7 +295,13 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
               <p className="text-starWhite/70 mb-2">
-                Email: vaishnav.sn4@gmail.com
+                Email:{" "}
+                <a
+                  href="mailto:vaishnav.sn4@gmail.com"
+                  className="hover:text-starWhite transition-colors"
+                >
+                  vaishnav.sn4@gmail.com
+                </a>
               </p>
             </div>
           </div>
