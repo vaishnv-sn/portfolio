@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { Send } from 'lucide-react';
-import emailjs from '@emailjs/browser';
-import toast, { Toaster } from 'react-hot-toast';
+import React, { useState } from "react";
+import { Send } from "lucide-react";
+import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -18,22 +18,22 @@ const ContactForm = () => {
 
     try {
       await emailjs.send(
-        'service_mrivqjc',
-        'template_i3tu6nc',
+        "service_qhkymwq",
+        "template_mshwx7s",
         {
-          from_name: formData.name,
+          name: formData.name,
           from_email: formData.email,
-          subject: formData.subject,
+          title: formData.subject,
           message: formData.message,
         },
-        '2XJwRs-YoX-kiO7kI'
+        "6raceRCupUEh9LPDY"
       );
 
-      toast.success('Message sent successfully!');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      toast.success("Message sent successfully!");
+      setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (error) {
-      toast.error('Failed to send message. Please try again.');
-      console.error('EmailJS Error:', error);
+      toast.error("Failed to send message. Please try again.");
+      console.error("EmailJS Error:", error);
     } finally {
       setIsSubmitting(false);
     }
@@ -118,7 +118,7 @@ const ContactForm = () => {
         disabled={isSubmitting}
         className="w-full bg-gradient-to-r from-nebulaPink to-cosmicBlue text-white py-3 px-6 rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-2 group"
       >
-        {isSubmitting ? 'Sending...' : 'Send Message'}
+        {isSubmitting ? "Sending..." : "Send Message"}
         <Send className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" />
       </button>
       <Toaster position="bottom-center" />
