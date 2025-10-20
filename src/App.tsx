@@ -186,9 +186,9 @@ function App() {
               // codeLink="https://github.com/kanish-v15/project-management-app"
             />
             <ProjectCard
-              title="Student Portal "
+              title="Study Abroad Student Portal "
               description="Full-featured student onboarding and management system for a leading UK based study abroad consultancy"
-              image="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80"
+              image="https://globalstudylinks.com/images/universityImg.png"
               tags={[
                 "MySQL",
                 "Express.js",
