@@ -77,6 +77,8 @@ function App() {
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
                 href="https://github.com/vaishnv-sn"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
               >
                 <Github className="w-6 h-6 group-hover:text-nebulaPink transition-colors" />
@@ -84,6 +86,8 @@ function App() {
               </a>
               <a
                 href="https://www.linkedin.com/in/vaishnav-sn/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
               >
                 <Linkedin className="w-6 h-6 group-hover:text-cosmicBlue transition-colors" />
@@ -91,6 +95,8 @@ function App() {
               </a>
               <a
                 href="mailto:vaishnav.sn4@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative p-3 bg-deepSpace/50 rounded-full hover:bg-deepSpace/80 transition-all duration-300 border border-starWhite/10"
               >
                 <Mail className="w-6 h-6 group-hover:text-emerald-500 transition-colors" />
@@ -160,30 +166,56 @@ function App() {
       <section id="projects" className="py-20 px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-nebulaPink to-cosmicBlue text-transparent bg-clip-text">
-            Featured Projects
+            Major Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Project Management Application"
-              description="Collaborative project management tool with real-time project updates"
-              image="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80"
-              tags={["Django", "MySQL", "Docker"]}
-              liveLink="https://kanishv.pythonanywhere.com/"
-              codeLink="https://github.com/kanish-v15/project-management-app"
+              title="Supply Chain hub Application"
+              description="Supply chain management system to streamline procurement, inventory, and logistics processes for a major Indian chemical manufacturing company."
+              image="https://sebangsanetwork.com/wp-content/uploads/2023/10/Supply-chain-management-D-600x453.jpg"
+              tags={[
+                "Express.js",
+                "Node.js",
+                "Docker",
+                "Nest.js",
+                "MongoDB",
+                "MySQL",
+                "Server Management",
+              ]}
+              // liveLink="https://kanishv.pythonanywhere.com/"
+              // codeLink="https://github.com/kanish-v15/project-management-app"
             />
             <ProjectCard
-              title="E-Commerce Application"
-              description="Full-featured e-commerce store with multi role user authentication functionality"
+              title="Student Portal "
+              description="Full-featured student onboarding and management system for a leading UK based study abroad consultancy"
               image="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80"
-              tags={["Django REST", "Python", "PostgreSQL"]}
-              codeLink="https://github.com/kanish-v15/ecommerce-app"
+              tags={[
+                "MySQL",
+                "Express.js",
+                "Node.js",
+                "MongoDB",
+                "React.js",
+                "Redux",
+                "Material UI",
+              ]}
+              liveLink="https://globalstudylinks.com/"
+              // codeLink="https://github.com/kanish-v15/ecommerce-app"
             />
             <ProjectCard
-              title="Expense Tracker Application"
-              description="Real time personal finance management tool with responsive reporting features"
+              title="CRM Study Abroad Portal"
+              description="Full-featured CRM for a leading UK based study abroad consultancy to manage student applications, agents, universities, and courses."
               image="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80"
-              tags={["Django", "Chart.js", "MySQL"]}
-              codeLink="https://github.com/kanish-v15/expense-tracker-app"
+              tags={[
+                "MySQL",
+                "Express.js",
+                "Node.js",
+                "React.js",
+                "Redux",
+                "Material UI",
+                "Pabbly",
+                "Email Integration",
+              ]}
+              // codeLink="https://github.com/kanish-v15/expense-tracker-app"
             />
           </div>
         </div>
@@ -237,18 +269,24 @@ function App() {
               <div className="flex gap-4">
                 <a
                   href="https://github.com/vaishnv-sn"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-starWhite/70 hover:text-nebulaPink transition-colors"
                 >
                   <Github className="w-5 h-5" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/vaishnav-sn/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-starWhite/70 hover:text-cosmicBlue transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
                   href="mailto:vaishnav.sn4@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-starWhite/70 hover:text-emerald-500 transition-colors"
                 >
                   <Mail className="w-5 h-5" />
