@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +26,7 @@ const NavBar = () => {
             <div className="text-2xl font-bold relative">
               <span className="animate-signature-draw inline-block">
                 <span className="bg-gradient-to-r from-nebulaPink via-cosmicBlue to-violet-500 text-transparent bg-clip-text">
-                  V-SN
+                  V5N
                 </span>
               </span>
               <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-nebulaPink via-cosmicBlue to-violet-500 group-hover:w-full transition-all duration-500"></div>
