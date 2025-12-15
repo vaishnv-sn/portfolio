@@ -5,6 +5,7 @@ import ContactForm from "./components/ContactForm";
 import SkillCard from "./components/SkillCard";
 import StarField from "./components/StarField";
 import MeteorShower from "./components/MeteorShower";
+import CVButtonRipple from "./components/CVButtonRipple";
 
 function App() {
   const skills = [
@@ -154,6 +155,7 @@ function App() {
               Always focus on the business process first, then build the system
               around it.
             </p>
+            <CVButtonRipple />
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
                 href="https://github.com/vaishnv-sn"
