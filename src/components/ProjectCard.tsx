@@ -1,5 +1,5 @@
-import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import React from "react";
+import { ExternalLink, Github } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
@@ -10,13 +10,20 @@ interface ProjectCardProps {
   codeLink?: string;
 }
 
-const ProjectCard = ({ title, description, image, tags, liveLink, codeLink }: ProjectCardProps) => {
+const ProjectCard = ({
+  title,
+  description,
+  image,
+  tags,
+  liveLink,
+  codeLink,
+}: ProjectCardProps) => {
   return (
     <div className="group relative overflow-hidden rounded-xl bg-deepSpace/50 border border-starWhite/10 backdrop-blur-sm hover:border-starWhite/20 transition-all duration-500">
       <div className="aspect-video overflow-hidden relative">
         <div className="absolute inset-0 bg-gradient-to-t from-deepSpace via-transparent to-transparent z-10"></div>
-        <img 
-          src={image} 
+        <img
+          src={image}
           alt={title}
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
         />
@@ -25,10 +32,25 @@ const ProjectCard = ({ title, description, image, tags, liveLink, codeLink }: Pr
         <h3 className="text-xl font-semibold mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-nebulaPink group-hover:to-cosmicBlue transition-colors duration-300">
           {title}
         </h3>
-        <p className="text-gray-400 mb-4 line-clamp-2">{description}</p>
+        <div className="relative group/tooltip">
+          <p className="text-gray-400 mb-4 line-clamp-2 cursor-default">
+            {description}
+          </p>
+
+          {/* Tooltip */}
+          <div
+            className="pointer-events-none absolute left-0 bottom-full mb-3 w-full opacity-0 scale-95
+                  group-hover/tooltip:opacity-100 group-hover/tooltip:scale-100
+                  transition-all duration-300 z-30"
+          >
+            <div className="rounded-lg bg-deepSpace border border-starWhite/20 p-4 text-sm text-gray-200 shadow-xl backdrop-blur">
+              {description}
+            </div>
+          </div>
+        </div>
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag) => (
-            <span 
+            <span
               key={tag}
               className="text-sm px-3 py-1 rounded-full bg-deepSpace/50 text-gray-300 border border-starWhite/10"
             >
@@ -38,7 +60,7 @@ const ProjectCard = ({ title, description, image, tags, liveLink, codeLink }: Pr
         </div>
         <div className="flex gap-4">
           {liveLink && (
-            <a 
+            <a
               href={liveLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -49,7 +71,7 @@ const ProjectCard = ({ title, description, image, tags, liveLink, codeLink }: Pr
             </a>
           )}
           {codeLink && (
-            <a 
+            <a
               href={codeLink}
               target="_blank"
               rel="noopener noreferrer"
