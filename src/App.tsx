@@ -9,6 +9,86 @@ import MeteorShower from "./components/MeteorShower";
 function App() {
   const skills = [
     {
+      name: "Third-Party Integrations",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg",
+      color: "text-[#A855F7]",
+    },
+    {
+      name: "Email & Notification Systems",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
+      color: "text-[#EA4335]",
+    },
+    {
+      name: "Payment Integrations",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      color: "text-[#635BFF]",
+    },
+    {
+      name: "Redux",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      color: "text-[#764ABC]",
+    },
+    {
+      name: "Material UI",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      color: "text-[#0081CB]",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+      color: "text-[#38BDF8]",
+    },
+    {
+      name: "Docker",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      color: "text-[#2496ED]",
+    },
+    {
+      name: "Linux",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      color: "text-[#FCC624]",
+    },
+    {
+      name: "Nginx",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
+      color: "text-[#009639]",
+    },
+    {
+      name: "System Design",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+      color: "text-[#9CA3AF]",
+    },
+    {
+      name: "Workflow Automation",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      color: "text-[#F05032]",
+    },
+    {
+      name: "Scalable Architecture",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      color: "text-[#2496ED]",
+    },
+    {
+      name: "REST API Design",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      color: "text-[#68A063]",
+    },
+    {
+      name: "Authentication & Authorization",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg",
+      color: "text-[#CCCCCC]",
+    },
+    {
+      name: "Database Design",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      color: "text-[#4479A1]",
+    },
+    {
+      name: "Data Modeling",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original.svg",
+      color: "text-[#47A248]",
+    },
+    {
       name: "Node.js",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       color: "text-[#3776AB]",
@@ -66,13 +146,13 @@ function App() {
             </h1>
             <div className="relative inline-block">
               <h2 className="text-4xl md:text-4xl font-bold mb-4 animate-float">
-                MERN Stack Developer
+                Full Stack Developer
               </h2>
               <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-gradient-to-r from-nebulaPink via-cosmicBlue to-violet-500 animate-pulse"></div>
             </div>
             <p className="text-xl md:text-2xl text-starWhite/90 mb-8 animate-fade-in opacity-0 [animation-delay:1000ms] max-w-2xl mx-auto leading-relaxed">
-              Delivering powerful systems driven by a passion for solving
-              real-world challenges.
+              Always focus on the business process first, then build the system
+              around it.
             </p>
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
               <a
@@ -118,7 +198,7 @@ function App() {
               <div className="relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-nebulaPink/20 to-cosmicBlue/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&q=80"
+                  src="/WhatsApp Image 2025-12-06 at 12.46.30 AM.jpeg"
                   alt="Profile"
                   className="rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500"
                 />
@@ -129,32 +209,43 @@ function App() {
                 About Me
               </h2>
               <p className="text-starWhite/80 leading-relaxed">
-                Full-Stack Developer deeply passionate about MERN stack
-                development — building applications that are scalable,
-                maintainable, and elegant. I thrive on solving complex problems,
-                improving workflows, and turning challenging ideas into
-                practical, high-quality solutions. I enjoy learning
-                continuously, experimenting with new approaches, and
-                collaborating across teams to deliver software that works
-                reliably and efficiently. I’m fascinated by the intersection of
-                technology and real-world impact, and I aim to grow as a
-                developer who doesn’t just write code, but shapes systems that
-                matter.
+                I’m a Full-Stack Developer with a strong focus on backend-driven
+                systems and workflow-oriented application design. I start by
+                understanding the business process behind a problem, then design
+                and build systems that are scalable, maintainable, and reliable
+                in real-world use.
               </p>
+
+              <p className="text-starWhite/80 leading-relaxed">
+                My experience includes working on production-grade platforms
+                across domains like supply chain and CRM systems, where clarity
+                of process, data flow, and long-term stability matter more than
+                quick feature delivery.
+              </p>
+
+              <p className="text-starWhite/80 leading-relaxed">
+                I work primarily with the MERN stack, choosing tools based on
+                system needs rather than trends, and focusing on building
+                software that reduces friction, avoids rework, and holds up
+                beyond initial release.
+              </p>
+
               <div className="grid grid-cols-2 gap-4">
                 <div className="group bg-deepSpace/50 border border-nebulaPink/20 p-6 rounded-lg backdrop-blur-sm transform hover:scale-105 transition-all duration-300">
                   <User className="w-6 h-6 mb-2 text-nebulaPink group-hover:animate-pulse" />
                   <h3 className="font-semibold mb-1 text-starWhite group-hover:text-nebulaPink transition-colors">
                     Experience
                   </h3>
-                  <p className="text-starWhite/70">2+ Years</p>
+                  <p className="text-starWhite/70">4+ Years</p>
                 </div>
                 <div className="group bg-deepSpace/50 border border-cosmicBlue/20 p-6 rounded-lg backdrop-blur-sm transform hover:scale-105 transition-all duration-300">
                   <Briefcase className="w-6 h-6 mb-2 text-cosmicBlue group-hover:animate-pulse" />
                   <h3 className="font-semibold mb-1 text-starWhite group-hover:text-cosmicBlue transition-colors">
                     Projects
                   </h3>
-                  <p className="text-starWhite/70">3+ Completed</p>
+                  <p className="text-starWhite/70">
+                    Multiple Production-Grade Systems
+                  </p>
                 </div>
               </div>
             </div>
@@ -182,8 +273,6 @@ function App() {
                 "MySQL",
                 "Server Management",
               ]}
-              // liveLink="https://kanishv.pythonanywhere.com/"
-              // codeLink="https://github.com/kanish-v15/project-management-app"
             />
             <ProjectCard
               title="Study Abroad Student Portal "
@@ -198,7 +287,7 @@ function App() {
                 "Redux",
                 "Material UI",
               ]}
-              liveLink="https://globalstudylinks.com/"
+              // liveLink="https://globalstudylinks.com/"
               // codeLink="https://github.com/kanish-v15/ecommerce-app"
             />
             <ProjectCard
@@ -215,7 +304,22 @@ function App() {
                 "Pabbly",
                 "Email Integration",
               ]}
-              // codeLink="https://github.com/kanish-v15/expense-tracker-app"
+            />
+            <ProjectCard
+              title="Restaurant Management System"
+              description="Full-featured restaurant management system with table reservations, order management, and billing functionalities."
+              image="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg"
+              tags={["MySQL", "Express.js", "Node.js", "React.js"]}
+              liveLink="https://tasteofmonsoon.co.uk/"
+              // codeLink="https://github.com/kanish-v15/ecommerce-app"
+            />
+            <ProjectCard
+              title="Point of Sales System"
+              description="Full-featured point of sales system for retail businesses with inventory management, sales tracking, and reporting functionalities."
+              image="https://www.connectpos.com/wp-content/uploads/2024/05/freepik-export-20240506070649A5jC.jpeg"
+              tags={["MongoDB", "Express.js", "Node.js", "React.js", "Zustand"]}
+              liveLink="https://pos-frontend-sandy.vercel.app/"
+              // codeLink="https://github.com/kanish-v15/ecommerce-app"
             />
           </div>
         </div>
