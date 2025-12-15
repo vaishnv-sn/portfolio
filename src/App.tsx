@@ -279,7 +279,7 @@ function App() {
             <ProjectCard
               title="Study Abroad Student Portal "
               description="Full-featured student onboarding and management system for a leading UK based study abroad consultancy"
-              image="https://globalstudylinks.com/images/universityImg.png"
+              image="https://globalstudylink.co.uk/wp-content/uploads/2023/10/banner-website-1.jpg"
               tags={[
                 "MySQL",
                 "Express.js",
@@ -321,7 +321,25 @@ function App() {
               image="https://www.connectpos.com/wp-content/uploads/2024/05/freepik-export-20240506070649A5jC.jpeg"
               tags={["MongoDB", "Express.js", "Node.js", "React.js", "Zustand"]}
               liveLink="https://pos-frontend-sandy.vercel.app/"
-              // codeLink="https://github.com/kanish-v15/ecommerce-app"
+              codeLink="https://github.com/vaishnv-sn/pos-frontend"
+            />
+            <ProjectCard
+              title="Startup YC Application"
+              description="A simplified version of the Y Combinator startup application portal, allowing users to submit and manage their startup applications."
+              image="https://www.ycombinator.com/blog/content/images/2022/08/BlogTwitter-Image-Template.png"
+              tags={[
+                "Next.js",
+                "api.js",
+                "Node.js",
+                "React.js",
+                "State Management",
+                "Tailwind CSS",
+                "CI/CD",
+                "vercel",
+                "Deployement",
+              ]}
+              liveLink="https://startup-yc-project.vercel.app/"
+              codeLink="https://github.com/vaishnv-sn/Startup-YC-Project"
             />
           </div>
         </div>
