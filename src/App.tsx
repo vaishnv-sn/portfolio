@@ -152,8 +152,8 @@ function App() {
               <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-gradient-to-r from-nebulaPink via-cosmicBlue to-violet-500 animate-pulse"></div>
             </div>
             <p className="text-xl md:text-2xl text-starWhite/90 mb-8 animate-fade-in opacity-0 [animation-delay:1000ms] max-w-2xl mx-auto leading-relaxed">
-              Always focus on the business process first, then build the system
-              around it.
+              Always focus on the process first, then build the system around
+              it.
             </p>
             <CVButtonRipple />
             <div className="flex gap-6 justify-center animate-fade-in opacity-0 [animation-delay:1200ms]">
