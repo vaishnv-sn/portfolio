@@ -200,7 +200,7 @@ function App() {
               <div className="relative rounded-2xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-nebulaPink/20 to-cosmicBlue/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <img
-                  src="/WhatsApp Image 2025-12-06 at 12.46.30 AM.jpeg"
+                  src="/me.jpeg"
                   alt="Profile"
                   className="rounded-2xl shadow-2xl transform group-hover:scale-105 transition-transform duration-500"
                 />
@@ -211,7 +211,7 @@ function App() {
                 About Me
               </h2>
               <p className="text-starWhite/80 leading-relaxed">
-                I’m a Full-Stack Developer with a strong focus on backend-driven
+                Full-Stack Developer with a strong focus on backend-driven
                 systems and workflow-oriented application design. I start by
                 understanding the business process behind a problem, then design
                 and build systems that are scalable, maintainable, and reliable
